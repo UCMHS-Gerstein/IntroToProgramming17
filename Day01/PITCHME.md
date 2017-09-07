@@ -37,7 +37,7 @@ Room 112
 * Work within an IDE to write, test, and debug code
 * Understand syntax, data types, variables, mathematical operations, and user input
 * Manipulate and visualize data
-***
++++
 * Apply software coding techniques to solve problems
 * Learn how to apply object oriented programming techniques
 * Use version control systems individually and as a collaborative tool
