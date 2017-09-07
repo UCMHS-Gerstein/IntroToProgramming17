@@ -54,6 +54,10 @@ Here are some of the resources we'll be using
 
 Please complete the following by next class. If computer access is a problem, please let me know so we can work out a solution.
 +++
+# AUP
+
+Make sure you and your parents have signed the Acceptable Use Policy so you can get back on the computers.
++++
 # Google Classroom
 
 Please sign up for Google Classroom for the correct class. Assignments and resources will be posted in classroom
@@ -68,4 +72,4 @@ Please sign up for Google Classroom for the correct class. Assignments and resou
 +++
 # Student Info Form
 
-Please help me get to know you a little better by filling out my [student info form](https://airtable.com/shrj8C0fDkl1LdraF).
+Please help me get to know you a little better by filling out the [student info form](https://airtable.com/shrj8C0fDkl1LdraF).
