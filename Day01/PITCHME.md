@@ -60,7 +60,7 @@ Make sure you and your parents have signed the Acceptable Use Policy so you can 
 +++
 # Google Classroom
 
-Please sign up for Google Classroom for the correct class. Assignments and resources will be posted in classroom
+Please sign up for Google Classroom.
 
 3-4A: 6n6ihdw
 
