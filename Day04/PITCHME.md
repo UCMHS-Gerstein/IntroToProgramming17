@@ -7,7 +7,7 @@ Intro to Programming - Day 4
 
 Go to [PythonAnywhere](www.pythonanywhere.com) and sign up for an account
 
-Go to your account page and add me as your teacher under the 'Teacher' tab
+Go to your account page and add me as your teacher under the **Teacher** tab
 
 My username is jgerstein
 ---
@@ -47,3 +47,57 @@ My username is jgerstein
 
 * Open up a Bash console
 * We're going to try using ```dir```, ```ls```, ```cd```, ```touch```, ```mkdir```, ```rm``` and ```mv```
+---
+# Interactive Python
+
+* Open up an iPython 3.6 console
+* Try doing simple calculations like ``` 3 + 5``` or ```1043 / 23```
+* What happens with more advanced calculations?
++++
+## Try some code:
+
+```python
+print('hello world')
+```
+---
+# Text Editor
+
+* Go to **Files** and create a file called ```hello.py```
+* In that file, add some code and we'll look at ways to run it:
+
+```python
+print('hello world')
+```
++++
+## More Advanced Code
+
+```python
+import random
+
+print("Generating a random number from 1 to 10")
+print("...")
+print("...")
+print("...")
+print(random.randint(1,10))
+```
++++
+## Making It More Efficient
+
+```python
+import random
+
+print("Generating a random number from 1 to 10")
+for x in range(100):
+    print("...")
+print(random.randint(1,10))
+```
++++
+## Getting Lots of Numbers
+
+```python
+import random
+
+print("Generating 1000 random numbers")
+for x in range(1000):
+    print(random.randint(1,10))
+```
