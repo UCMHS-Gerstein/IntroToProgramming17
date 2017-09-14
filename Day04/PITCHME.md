@@ -45,7 +45,7 @@ My username is jgerstein
 ---
 # PythonAnywhere
 
-![consoles and files](Day04/assets/consolesandfiles.PNG)
+![ui](Day04/assets/ui.PNG)
 ---
 # Command Line
 
