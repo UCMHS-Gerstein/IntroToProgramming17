@@ -13,4 +13,4 @@ My username is jgerstein
 ---
 # Account Page
 
-![teacher](assets/teacher.PNG)
+![teacher](Day04/assets/teacher.PNG)
