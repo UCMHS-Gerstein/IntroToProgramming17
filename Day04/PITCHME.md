@@ -43,10 +43,6 @@ My username is jgerstein
 * ```help()```
 * ```exit()```
 ---
-# PythonAnywhere
-
-![ui](Day04/assets/ui.PNG)
----
 # Command Line
 
 * Open up a Bash console
