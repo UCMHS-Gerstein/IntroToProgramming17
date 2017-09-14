@@ -32,6 +32,8 @@ My username is jgerstein
 * ```dir```
 * ```ls```
 * ```cd```
+* ```mkdir```
+* ```rm```
 * ```touch```
 * ```python3```
 ---
@@ -40,3 +42,12 @@ My username is jgerstein
 * ```print()```
 * ```help()```
 * ```exit()```
+---
+# PythonAnywhere
+
+![consoles and files](Day04/assets/consolesandfiles.PNG)
+---
+# Command Line
+
+* Open up a Bash console
+* We're going to try using ```dir```, ```ls```, ```cd```, ```touch```, ```mkdir```, ```rm``` and ```mv```
