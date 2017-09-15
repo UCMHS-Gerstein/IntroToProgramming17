@@ -28,3 +28,37 @@ print('I am a string too!')
 print("These double quotes don't mess with contractions.")
 ```
 @[1-3, 5, 7, 11, 13]
+@[6, 8, 10, 12, 14]
+---
+# Comments Are Important
+
+* Make code easier to understand
+* Communicate with others who need to use/edit your code
+* Comment out line of code temporarily
+* In class, you'll use them to show understanding of your own code
+---
+# Exercise
+
+In a file called ```day05.py```, use the print function and place a comment describing it in the line above your print function
+---
+# Data Types
+
+* Data has a variety of types
+* For today: integer, float, string
+---
+# Math and Numbers
+
+```python
+# Addition
+print(1 + 2)
+
+# Subtraction
+print(3 - 20)
+
+# Multiplication
+print(21 * 2)
+
+# Division
+print(100/3)
+```
+---
