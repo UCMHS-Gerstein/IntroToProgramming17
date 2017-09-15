@@ -5,7 +5,9 @@ Intro to Programming - Day 4
 ---
 # Do Now
 
-Go to [PythonAnywhere](www.pythonanywhere.com) and sign up for an account
+Go to [PythonAnywhere](http://www.pythonanywhere.com) and sign up for an account
+
+If you get an error *check your email before you try again*
 
 Go to your account page and add me as your teacher under the **Teacher** tab
 
