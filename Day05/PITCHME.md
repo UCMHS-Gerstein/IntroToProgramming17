@@ -62,3 +62,11 @@ print(21 * 2)
 print(100/3)
 ```
 ---
+# Exercise
+
+Try using the following operators in an interactive console:
+
+```+```, ```-```, ```*```, ```/```, ```%```, ```<```, ```>```, ```<=```, ```>=```
+
+To do this, open an iPython 3.6 console and see the results you get by putting these operators in between numbers
+---
