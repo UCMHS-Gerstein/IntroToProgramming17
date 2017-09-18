@@ -8,10 +8,7 @@ Intro to Programming - Day 5
 * Open up a terminal for Python 3
 * Use the ```print()``` function to print 5 different things
 * We'll have a quiz after everybody settles in
-<<<<<<< HEAD
-=======
 * Files and consoles you'll need: python3 interactive console, ```day05.py```, ```yourlastnameday05.py```
->>>>>>> class-dev
 ---
 # Comments
 
@@ -59,11 +56,7 @@ In a file called ```day05.py```, use the print function and place a comment desc
 # Float
 
 * Number with a decimal
-<<<<<<< HEAD
-* 5.0, 3.14159265359, -20
-=======
 * 5.0, 3.14159265359, -20.2
->>>>>>> class-dev
 * Stands for **floating point number**
 +++
 # String
@@ -91,18 +84,14 @@ print(3 - 20)
 print(21 * 2)
 
 # Division
-<<<<<<< HEAD
-print(100/3)
-=======
 print(100 / 3)
->>>>>>> class-dev
 ```
 ---
 # Exercise
 
 Try using the following operators in an interactive console:
 
-```+```, ```-```, ```*```, ```/```, ```%```, ```<```, ```>```, ```<=```, ```>=```
+```+```, ```-```, ```*```, ```/```, ```%```, ```**```, ```<```, ```>```, ```<=```, ```>=```
 
 To do this, open an iPython 3.6 console and see the results you get by putting these operators in between numbers. Python will use the correct order of operations.
 ---
@@ -173,17 +162,22 @@ print("There are", total_animals, "animals")
 ---
 # Class Exercise
 
-<<<<<<< HEAD
-* Create a file called yourlastnameday05.py
-* Please name it exactly as shown
-* In the file, create a variable called inches and assign it a value
-* Create a second variable called cm and use math and your first variable to assign it the number of cm your inches variable contains
-* Use a print statement to tell me what both variables are.
-=======
 * Create a file called ```yourlastnameday05.py```
 * Please name it exactly as shown
 * In the file, create a variable called inches and assign it a value
 * Create a second variable called cm and use math and your first variable to assign it the number of cm your inches variable contains
 * Use a print statement to tell me what both variables are.
 * Remember to include comments
->>>>>>> class-dev
+---
+# Finished early?
+
+* Open your python3 console
+* type ```import math``` to import the math module
+* use ```dir(math)``` to get a list of the functions contained in the math module, or use the following for nicer formatting:
+
+```python
+for item in dir(math):
+    print(item)
+```
+
+Try the functions in the math module
