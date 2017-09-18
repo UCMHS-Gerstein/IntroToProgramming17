@@ -8,6 +8,10 @@ Intro to Programming - Day 5
 * Open up a terminal for Python 3
 * Use the ```print()``` function to print 5 different things
 * We'll have a quiz after everybody settles in
+<<<<<<< HEAD
+=======
+* Files and consoles you'll need: python3 interactive console, ```day05.py```, ```yourlastnameday05.py```
+>>>>>>> class-dev
 ---
 # Comments
 
@@ -55,7 +59,11 @@ In a file called ```day05.py```, use the print function and place a comment desc
 # Float
 
 * Number with a decimal
+<<<<<<< HEAD
 * 5.0, 3.14159265359, -20
+=======
+* 5.0, 3.14159265359, -20.2
+>>>>>>> class-dev
 * Stands for **floating point number**
 +++
 # String
@@ -83,7 +91,11 @@ print(3 - 20)
 print(21 * 2)
 
 # Division
+<<<<<<< HEAD
 print(100/3)
+=======
+print(100 / 3)
+>>>>>>> class-dev
 ```
 ---
 # Exercise
@@ -161,8 +173,17 @@ print("There are", total_animals, "animals")
 ---
 # Class Exercise
 
+<<<<<<< HEAD
 * Create a file called yourlastnameday05.py
 * Please name it exactly as shown
 * In the file, create a variable called inches and assign it a value
 * Create a second variable called cm and use math and your first variable to assign it the number of cm your inches variable contains
 * Use a print statement to tell me what both variables are.
+=======
+* Create a file called ```yourlastnameday05.py```
+* Please name it exactly as shown
+* In the file, create a variable called inches and assign it a value
+* Create a second variable called cm and use math and your first variable to assign it the number of cm your inches variable contains
+* Use a print statement to tell me what both variables are.
+* Remember to include comments
+>>>>>>> class-dev
