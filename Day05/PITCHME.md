@@ -91,11 +91,7 @@ print(100 / 3)
 
 Try using the following operators in an interactive console:
 
-<<<<<<< HEAD
 ```+```, ```-```, ```*```, ```/```, ```%```, ```**```, ```<```, ```>```, ```<=```, ```>=```
-=======
-```+```, ```-```, ```*```, ```/```, ```%```, ```<```, ```>```, ```<=```, ```>=```
->>>>>>> class-dev
 
 To do this, open an iPython 3.6 console and see the results you get by putting these operators in between numbers. Python will use the correct order of operations.
 ---
@@ -184,8 +180,4 @@ for item in dir(math):
     print(item)
 ```
 
-<<<<<<< HEAD
-Try the functions in the math module
-=======
 * Try the functions in the math module
->>>>>>> class-dev
