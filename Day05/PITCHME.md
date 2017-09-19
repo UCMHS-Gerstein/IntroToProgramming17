@@ -171,9 +171,8 @@ print("There are", total_animals, "animals")
 ---
 # Finished early?
 
-* Open your python3 console
-* type ```import math``` to import the math module
-* use ```dir(math)``` to get a list of the functions contained in the math module, or use the following for nicer formatting:
+* Open your python3 console and type ```import math``` to import the math module
+* use ```dir(math)``` to get a list of the functions or use the following for nicer formatting:
 
 ```python
 for item in dir(math):
@@ -181,3 +180,4 @@ for item in dir(math):
 ```
 
 * Try the functions in the math module
+* Example: ```math.radians(45)``` will return 45 degrees in radians
