@@ -1,7 +1,7 @@
 ---
 # Taking user input
 
-Intro to Programming - Day 5
+Intro to Programming - Day 7
 ---
 # Files
 
