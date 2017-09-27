@@ -45,3 +45,37 @@ def inches_to_cm(inches):
 * ```"""takes a number...as a float"""``` is a docstring
 * ```    cm = inches * 2.54``` creates a variable with a calculated value
 * ```    return cm``` will exit the function (because of ```return```) and make the value of ```cm``` the function's output
+---
+# Snippets
+
+Scroll down for function snippets
++++
+```python
+def say_hello():
+    """Prints hello"""
+    # insert code in here to print hello
+
+
+# Print hello
+say_hello()
+```
++++
+```python
+def fifty():
+    """Returns 50"""
+    # insert code in here to return 50
+
+
+# Should print 100
+print(fifty() * 2)
+```
++++
+```python
+def add_them_all(n1, n2, n3, n4, n5):
+    """Returns sum of five numbers"""
+    #insert code in here to return the sum of all 5 arguments
+
+
+# Should print 111
+print(add_them_all(1, 3, 5, 2, 100))
+```
