@@ -1,8 +1,11 @@
-import math
+from math import sqrt
 
-a = int(input('side a '))
-b = int(input('side b '))
+# sides of triangle
+a = float(input("Side a: "))
+b = float(input("Side b: "))
 
-c = math.sqrt(a ** 2 + b ** 2)
-print(f"The hypotenuse is {c}")
-print(f"the hypotenuse is approximately {round(c)}")
+# calculate hypotenuse
+c = sqrt(a ** 2 + b ** 2)
+
+# display results
+print(f"With sides of {a} and {b}, the hypotenuse is {c}")
