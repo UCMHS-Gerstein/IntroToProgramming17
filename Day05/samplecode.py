@@ -1,1 +1,6 @@
-print(1 + 2)
+name = "hannah"
+name2 = "izzy"
+
+story = f"""{name} and {name2} are both people."""
+
+print(story)
