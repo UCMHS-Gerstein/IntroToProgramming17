@@ -79,3 +79,6 @@ def add_them_all(n1, n2, n3, n4, n5):
 # Should print 111
 print(add_them_all(1, 3, 5, 2, 100))
 ```
+## Create a function from scratch
+
+Create a function called ```find_hypotenuse()``` with two parameters - **a** and **b**. This function should return the hypotenuse of a triangle with sides a and b. Make sure you call the function a few times and see if it works.
