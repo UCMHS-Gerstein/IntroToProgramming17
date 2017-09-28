@@ -82,4 +82,10 @@ print(add_them_all(1, 3, 5, 2, 100))
 ---
 ## Create a function from scratch
 
-Create a function called ```find_hypotenuse()``` with two parameters - **a** and **b**. This function should return the hypotenuse of a triangle with sides a and b. Make sure you call the function a few times and see if it works.
+In day08.py, create a function called ```find_hypotenuse()``` with two parameters - **a** and **b**. This function should return the hypotenuse of a triangle with sides a and b. Make sure you call the function a few times and see if it works.
+
+For square root, you can either use exponents or import the ```sqrt()``` function using the following line at the top of your program.
+
+```python
+from math import sqrt
+```
