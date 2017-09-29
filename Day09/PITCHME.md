@@ -11,6 +11,7 @@ Use string formatting and the input function to call your functions in a way tha
 +++
 ## Grading
 
+* File is ```day09.py```
 * 20 point classwork
 * 4 points for correctness of each function
 * 3 points for quality of commenting
