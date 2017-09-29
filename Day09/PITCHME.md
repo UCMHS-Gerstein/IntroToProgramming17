@@ -7,7 +7,7 @@ Intro to Programming - Day 9
 
 Define three functions - ```find_circumference```, ```find_area```, and ```find_surface_area```. Each should take one argument called ```radius```. They should each return the appropriate number for the circumference/area/surface area of a circle or sphere with the specified radius.
 
-Using string formatting and the input function, call your functions in a way that will prompt the user for input and provide a nicely formatted printout of the answers, including a description of what each number is.
+Use string formatting and the input function to call your functions in a way that will prompt the user for input and provide a nicely formatted printout of the answers, including descriptions.
 +++
 ## Grading
 
