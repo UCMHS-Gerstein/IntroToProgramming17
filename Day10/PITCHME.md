@@ -17,7 +17,7 @@ Intro to Programming Day 10
 ---
 # Truth Tables
 
-* Posted in [repo](https://github.com/UCMHS-Gerstein/IntroToProgramming17/blob/class-dev/Day10/truthtables.md)
+* Posted in [repo](https://github.com/UCMHS-Gerstein/IntroToProgramming17/blob/master/Day10/truthtables.md)
 * We will go over in class
 * Know the contents
 * If unsure, you can use Python to check
@@ -68,4 +68,4 @@ File - day10.py
 
 Create 10 if, elif, or else statements. Try to incorporate all of the symbols/keywords from slide 3
 
-You can find my sample code [here](https://github.com/UCMHS-Gerstein/IntroToProgramming17/blob/class-dev/Day10/sample.py)
+You can find my sample code [here](https://github.com/UCMHS-Gerstein/IntroToProgramming17/blob/master/Day10/sample.py)
