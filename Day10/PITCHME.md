@@ -66,4 +66,6 @@ if True:
 
 File - day10.py
 
-Create 10 if statements. Try to incorporate all of the symbols/keywords from slide 3
+Create 10 if, elif, or else statements. Try to incorporate all of the symbols/keywords from slide 3
+
+You can find my sample code [here](https://github.com/UCMHS-Gerstein/IntroToProgramming17/blob/class-dev/Day10/sample.py)
