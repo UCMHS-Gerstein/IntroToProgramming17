@@ -17,14 +17,14 @@ Intro to Programming Day 10
 ---
 # Truth Tables
 
-* Posted in [repo](https://github.com/UCMHS-Gerstein/IntroToProgramming17/blob/class-dev/truthtables.md)
+* Posted in [repo](https://github.com/UCMHS-Gerstein/IntroToProgramming17/blob/class-dev/Day10/truthtables.md)
 * We will go over in class
 * Know the contents
 * If unsure, you can use Python to check
 ---
-# Try this code
+## Try this code
 
-Change your input values when you run it and see how it affects what's printed?
+Try different input values
 
 ```python
 hours_in_day = 24
@@ -61,3 +61,9 @@ if True:
 ```
 @[1]
 @[2]
+---
+# Class exercise
+
+File - day10.py
+
+Create 10 if statements. Try to incorporate all of the symbols/keywords from slide 3
