@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 hours_in_day = 24
 hours_in_school = 7
 hours_of_travel = float(input("How long do you travel for school? "))
@@ -15,3 +16,22 @@ if time_left < 8:
 
 if time_left < 0:
     print("Wait, how are you going to accomplish all of this? There aren't enough hours in the day!")
+=======
+def respond_to_day(day):
+    if day == "monday":
+        print("Sorry, no sleeping in for you")
+    elif day == "tuesday":
+        print("At least one day is over with, so you've got that going for you")
+    elif day == "wednesday":
+        print("Halfway!")
+    elif day == "thursday":
+        print("Happy Friday eve")
+    elif day == "friday":
+        print("It's Friday!")
+    elif day == "saturday" or day == "sunday":
+        print("Enjoy the weekend")  
+    else:
+        print("Sorry, I don't know what you mean")
+
+respond_to_day(input("What day is it? ").lower())
+>>>>>>> master
