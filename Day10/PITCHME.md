@@ -17,7 +17,7 @@ Intro to Programming Day 10
 ---
 # Truth Tables
 
-* Posted in [repo](\truthtables.md)
+* Posted in [repo](truthtables.md)
 * We will go over in class
 * Know the contents
 * If unsure, you can use Python to check
