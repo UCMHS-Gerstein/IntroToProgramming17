@@ -132,7 +132,7 @@ elif day == "saturday" or day == "sunday":
     print("Enjoy the weekend")  
 else:
     print("Sorry, I don't know what you mean")
-
+```
 ---
 # Class exercise
 
