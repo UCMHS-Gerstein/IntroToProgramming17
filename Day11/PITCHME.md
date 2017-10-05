@@ -13,7 +13,7 @@ Intro to Programming Day 11
 secret_number = 8
 guess = int(input("Pick a number"))
 while guess != secret_number:
-    secret_number = int(input("Try again! ))
+    guess = int(input("Try again! "))
 print(f"You guessed the secret number! It was {secret_number}")
 ```
 ---
