@@ -17,6 +17,24 @@ while guess != secret_number:
 print(f"You guessed the secret number! It was {secret_number}")
 ```
 ---
+# Break
+
+Takes you out of a block of code
+
+```python
+secret_word = 'alphabet'
+while True:
+    answer = input("guess the word >>> ").lower()
+    print(f"You guessed {answer.upper()}")
+    if answer == secret_word:
+        print("You were right!")
+        break
+print("exiting the program now")
+```
+---    
 # Class Exercise
 
-* Make 5 while loops
+* File: Day11.py
+* Create 5 different while loops
+* Make sure you include something that's counting repetitions
+* Make sure you include something that will exit based on a user's input
