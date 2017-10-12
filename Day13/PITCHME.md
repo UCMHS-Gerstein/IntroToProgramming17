@@ -71,3 +71,24 @@ for num in range(0, 100, 3):
 @[1-3]
 @[5-7]
 @[9-11]
+---
+# Lists
+
+* Lists store multiple items in an ordered list
+* Comma separated values inside square brackets
+* ```[1, 2, 3, 4, 5, 6]```
+* This is a **big** topic and we're not covering the whole thing today!
++++
+
+```python
+# print colors
+for color in ['red', 'orange', 'yellow', 'green', 'blue', 'purple']:
+    print(color)
+```
+---
+# Practice
+
+* We're going to do some drawing!
+* Go to [Trinket](https://trinket.io) and sign up/sign in with your school account
+* Create a new Trinket and use ```#!/bin/python3``` as the first line
+* We're going to start together and then you'll have time to play with this
