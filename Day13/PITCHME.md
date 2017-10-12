@@ -43,6 +43,31 @@ for number in range(10):
     print(number)
 ```
 
-* Can be thought of as "for each item in this set of values, do something"
+* For each item in this set of values, do something
 * Variable can be named any way you want, but it helps to be descriptive
 * Variable does **not** need to be used in the loop
+* Variable is *local* - it only exists within this loop
+---
+# Range
+
+* ```range()``` is a function that will return a special type of object to iterate through a range of numbers
+* One mandatory argument - maximum
+* Optional minimum (default is 0)
+* Optional step (default is 1)
++++
+```python
+# Print 0 - 10
+for num in range(11):
+    print(num)
+
+# Print 5 - 19
+for num in range(5, 20):
+    print(num)
+
+# Print 0 - 99, stepping by 3
+for num in range(0, 100, 3):
+    print(num)
+```
+@[1-3]
+@[5-7]
+@[9-11]
