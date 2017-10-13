@@ -90,5 +90,4 @@ for color in ['red', 'orange', 'yellow', 'green', 'blue', 'purple']:
 
 * We're going to do some drawing!
 * Go to [Trinket](https://trinket.io) and sign up/sign in with your school account
-* Create a new Trinket and use ```#!/bin/python3``` as the first line
 * We're going to start together and then you'll have time to play with this
