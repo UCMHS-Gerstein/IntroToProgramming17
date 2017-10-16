@@ -1,7 +1,7 @@
 ---
 # Turtle
 
-Intro to Programming Day 15
+Intro to Programming Day 14
 ---
 # Do Now:
 
