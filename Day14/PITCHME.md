@@ -28,4 +28,4 @@ for n in range(12):
 ---
 ## Reading Documentation
 
-Go to the [Turtle Graphics documentation](https://docs.python.org/3.1/library/turtle.html) and read the introduction
+Go to the [Turtle Graphics documentation](https://docs.python.org/3/library/turtle.html) and read the introduction
