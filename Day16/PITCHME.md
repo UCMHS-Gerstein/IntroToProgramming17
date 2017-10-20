@@ -27,7 +27,10 @@ Demonstrate the following:
 * Graded out of 16 points.
 * New functions should have comments explaining what they do
 * [Rubric is linked here](https://docs.google.com/document/d/14X8ubw_3d-0EXb_eZvhIinurQnBHBSPEZ-LTdgINnr8/edit?usp=sharing)
+---
+## Submitting Work
 
+You should do your work in a new Trinket. When done, submit a share link to the assignment in Google Classroom.
 ---
 ## Due Date
 
