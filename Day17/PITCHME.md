@@ -25,3 +25,23 @@ We'll be using git as our version control system. It's a great system, but it lo
 # Reading 1
 
 Read through the end of the Snapshots section
++++
+# Reading 2
+
+Read through the end of Tags
++++
+# Reading 3
+
+Read through the end of Offline
++++
+# Reading 4
+
+Read through the end of Merges
++++
+# Reading 5
+
+Read through rewriting history
++++
+# Reading 6
+
+Read through staging area
