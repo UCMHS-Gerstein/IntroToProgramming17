@@ -215,3 +215,16 @@ Make a new commit with the commit message "Updated files". Can you stage and com
 ```shell
 git commit -am "Updated files"
 ```
+---
+### Practice
+
+Make two more commits
+---
+### Log
+
+We can see a log of our changes
+
+`git log` or `git log --oneline`
+
+Try it now. If the list is longer than your screen, use `enter` key to scroll. Use `q` key to exit
+---
