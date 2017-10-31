@@ -18,6 +18,10 @@ Open a Bash terminal in Python Anywhere. Create a new directory called `first-re
 ### Expected Results
 
 If you've done this step correctly, your command line should indicate that you're in the `first-repo` directory
+
+```shell
+13:46 ~/first-repo $ 
+```
 +++
 ### Commands
 
@@ -102,3 +106,29 @@ PS C:\Users\gerst\Documents\github\first-repo>
 ```
 
 What does this tell us?
+---
+### Staging files
+
+Stage both of your new files and check your repo's status
++++
+### Expected Results
+
+```shell
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   pumpkin.py
+        new file:   readme.md
+
+PS C:\Users\gerst\Documents\github\first-repo>
+```
++++
+### Commands
+```shell
+git add -A
+git status
+```
