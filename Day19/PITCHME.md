@@ -132,3 +132,24 @@ PS C:\Users\gerst\Documents\github\first-repo>
 git add -A
 git status
 ```
+---
+### Committing
+
+Commit the current state of your repository with a commit message of "created pumpkin and readme"
++++
+### Expected Results
+
+A new commit should be created
+
+```shell
+[master (root-commit) abbf72c] created pumpkin and readme
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 pumpkin.py
+ create mode 100644 readme.md
+ ```
++++
+### Commands
+
+```shell
+git commit -m "created pumpkin and readme"
+```
