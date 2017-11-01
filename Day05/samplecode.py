@@ -1,11 +1,6 @@
-# Addition
-print(1 + 2)
+name = "hannah"
+name2 = "izzy"
 
-# Subtraction
-print(3 - 20)
+story = f"""{name} and {name2} are both people."""
 
-# Multiplication
-print(21 * 2)
-
-# Division
-print(100/3)
+print(story)
