@@ -40,5 +40,18 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 
 When it asks you to choose a location, just press enter to accept the default location
 
-Enter a passphrase at the prompt. Doesn't matter what it is, as long as you can remember it (and it's secure)
+If you want to set a passphrase on your SSH key, you can. Otherwise, just press enter when prompted. If you're using a passphrase, let me know so I can give you some additional info.
 +++
+### Registering your key
+
+Now we'll set GitHub up to recognize your new SSH key
+
+* Use `cat ~/.ssh/id_rsa.pub` to print your SSH key to the terminal window. It will start with **ssh-rsa** and end with your email address
+* Copy the SSH key
+* Go to GitHub and click on your profile picture in the top right
+* Choose **Settings**
+* Go to **SSH and GPG Keys** in the left sidebar
+* Click **Add SSH key**
+* Add a name for the key so you can recognize it, paste your key into the **Key** field, and click **Add SSH key**. Confirm your password if necessary
+---
+
