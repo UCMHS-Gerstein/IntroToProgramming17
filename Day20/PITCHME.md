@@ -17,4 +17,28 @@ SSH keys are used as a type of login and password combo. They'll let you pair Py
 +++
 ### Check for existing keys
 
-You probably don't have any existing keys. Confirm using <kbd>ls -al ~/.ssh</kbd>
+You probably don't have any existing keys. Confirm by entering
+```shell 
+ls -al ~/.ssh
+```
+at the command prompt.
+
+You should get a warning that there is no such file or directory. That's normal
+```shell
+ls: cannot access /home/gersteinj/.ssh: No such file or directory
+```
+
+Let me know if you get some other result
++++
+### Making a new key
+
+Use the following command in your Bash console, replacing the email address with **the one you signed up for GitHub with**.
+
+```shell
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+```
+
+When it asks you to choose a location, just press enter to accept the default location
+
+Enter a passphrase at the prompt. Doesn't matter what it is, as long as you can remember it (and it's secure)
++++
