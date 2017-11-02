@@ -58,6 +58,44 @@ Now we'll set GitHub up to recognize your new SSH key
 
 * Cloning makes a local copy of your remote repository
 ---
----
 # Lists
+
+* Ordered list of values
+* Zero-indexed
+* Comma separated values in square brackets
++++
+# Examples
+
+* `[1, 2, 3, 4, 5]`
+* `['aardvark', 'bear', 'cat', 'dog', 'elephant']`
++++
+# Try It
+
+In **exercise1.py**, insert values into the `my_list` variables. What happens when you run it? Try changing the variable. Can you use different types of values? Is it always in the same order? Stage and commit your changes
+---
+# Index
+
+* An item's position in the list is called its **index**
+* The first index is 0
+* `my_list[0]` returns the first item in the list called **my_list**
+* `my_list[3]` returns the fourth item in the list called **my_list**
+* You can work backwards, too: `my_list[-1]` returns the last item in the list called **my_list**
+* `my_list[-3]` will return the third item from the end
++++
+# Try It
+
+In **exercise2.py** follow the directions. Did the code work as you expected? Did you run into any problems? Stage and commit your changes
+---
+# Slicing
+
+You can use slices to return a section of a list
+
+* `my_list[2:4]` will return the chunk starting at index 2 and ending *right before* index 4. So index 4 is not included
+* You can leave the start blank to start at 0, or leave the end blank to end with the last item
++++
+# Try It
+
+In **exercise3.py** follow the directions. Stage and commit your changes
+---
+# More Functions
 
