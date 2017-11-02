@@ -5,7 +5,7 @@ Intro to Programming - Day 20
 ---
 # Do Now
 
-Log in to GitHub using the account you created. Go to my [repository for today's assignment](https://github.com) and fork it by clicking on the fork button. This will make a copy of the repository on your account. Open a bash console, because you're going to need it after the quiz.
+Log in to GitHub using the account you created. Go to my [repository for today's assignment](https://github.com/UCMHS-Gerstein/intro-to-lists) and fork it by clicking on the fork button in the upper right corner. This will make a copy of the repository on your account.
 ---
 # Authenticating to GitHub
 
@@ -50,6 +50,7 @@ Now we'll set GitHub up to recognize your new SSH key
 * Copy the SSH key
 * Go to GitHub and click on your profile picture in the top right
 * Choose **Settings**
++++
 * Go to **SSH and GPG Keys** in the left sidebar
 * Click **Add SSH key**
 * Add a name for the key so you can recognize it, paste your key into the **Key** field, and click **Add SSH key**. Confirm your password if necessary
@@ -57,6 +58,13 @@ Now we'll set GitHub up to recognize your new SSH key
 # Cloning
 
 * Cloning makes a local copy of your remote repository
+* Go to your copy of the repository - if you have trouble finding it, the URL should be https://github.com/<username>/intro-to-lists
+* Click on the green **Clone or download** button and copy the url provided - https://github.com/<username>/intro-to-lists.git
+* In your Bash console, use the **clone** command:
+
+```shell
+git clone https://github.com/<username>/intro-to-lists.git
+```
 ---
 # Lists
 
@@ -99,3 +107,10 @@ In **exercise3.py** follow the directions. Stage and commit your changes
 ---
 # More Functions
 
+* `len(my_list)` will return the length of the list. This is used a lot, so get used to seeing it
+* `my_list.append(x)` will add **x** to the end of my_list. **x** cam be any valid value
+* There are other functions associated with lists - you can check them out [here](https://docs.python.org/3/tutorial/datastructures.html#more-on-lists)
++++
+# Try It
+
+In **exercise4.py** follow the directions. Stage and commit your changes
