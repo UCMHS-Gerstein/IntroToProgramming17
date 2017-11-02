@@ -54,4 +54,10 @@ Now we'll set GitHub up to recognize your new SSH key
 * Click **Add SSH key**
 * Add a name for the key so you can recognize it, paste your key into the **Key** field, and click **Add SSH key**. Confirm your password if necessary
 ---
+# Cloning
+
+* Cloning makes a local copy of your remote repository
+---
+---
+# Lists
 
