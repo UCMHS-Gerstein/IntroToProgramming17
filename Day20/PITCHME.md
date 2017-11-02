@@ -58,12 +58,12 @@ Now we'll set GitHub up to recognize your new SSH key
 # Cloning
 
 * Cloning makes a local copy of your remote repository
-* Go to your copy of the repository - if you have trouble finding it, the URL should be https://github.com/<username>/intro-to-lists
-* Click on the green **Clone or download** button and copy the url provided - https://github.com/<username>/intro-to-lists.git
+* Go to your copy of the repository - if you have trouble finding it, the URL should be https://github.com/USERNAME/intro-to-lists
+* Click on the green **Clone or download** button and copy the url provided - https://github.com/USERNAME/intro-to-lists.git
 * In your Bash console, use the **clone** command:
 
 ```shell
-git clone https://github.com/<username>/intro-to-lists.git
+git clone https://github.com/USERNAME/intro-to-lists.git
 ```
 ---
 # Lists
