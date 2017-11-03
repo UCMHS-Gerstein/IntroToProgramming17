@@ -5,7 +5,7 @@ Intro to Programming - Day 20
 ---
 # Do Now
 
-Log in to GitHub using the account you created. Go to my [repository for today's assignment](https://github.com/UCMHS-Gerstein/intro-to-lists) and fork it by clicking on the fork button in the upper right corner. This will make a copy of the repository on your account. If you are unable to verify your email, you may need to temporarily change emails.
+<strike>Log in to GitHub using the account you created. Go to my [repository for today's assignment](https://github.com/UCMHS-Gerstein/intro-to-lists) and fork it by clicking on the fork button in the upper right corner. This will make a copy of the repository on your account. If you are unable to verify your email, you may need to temporarily change emails.</strike>
 ---
 # Authenticating to GitHub
 
@@ -58,10 +58,7 @@ Now we'll set GitHub up to recognize your new SSH key
 # Cloning
 
 * Cloning makes a local copy of your remote repository
-* Go to your copy of the repository - if you have trouble finding it, the URL should be https://github.com/USERNAME/intro-to-lists
-* Click on the green **Clone or download** button and copy the url provided - https://github.com/USERNAME/intro-to-lists.git
-+++
-* If you are unable to fork the repository, use mine and we'll change the configuration later - <https://github.com/UCMHS-Gerstein/intro-to-lists.git>
+* You're going to clone my repository for this assignment - the URL is <https://github.com/UCMHS-Gerstein/intro-to-lists.git>
 * In your Bash console, use the **clone** command:
 
 ```shell
