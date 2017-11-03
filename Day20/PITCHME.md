@@ -62,7 +62,7 @@ Now we'll set GitHub up to recognize your new SSH key
 * In your Bash console, use the **clone** command:
 
 ```shell
-git clone https://github.com/USERNAME/intro-to-lists.git
+git clone https://github.com/UCMHS-Gerstein/intro-to-lists.git
 ```
 ---
 # Lists
