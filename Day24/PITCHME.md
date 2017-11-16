@@ -24,3 +24,23 @@ Choose a word. Use that word as a variable name. Create a dictionary with at lea
 kitten = {# The keys should be languages, and the value for each key should be the word you chose in the specified language'}
 ```
 ---
+# Exercise 1
++++
+### Part 1
+
+Let's start with printing a list of languages with their associated translations. How could you do this?
+
+Remember dict.items()
++++
+### Part 2
+
+Define a function to print out your list of languages and translations
+
++++
+### Part 3
+
+Define a function to both print and return the translation of a specified word in a specified language
++++
+### Part 4
+
+Save and commit your changes
