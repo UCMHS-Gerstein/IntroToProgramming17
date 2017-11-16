@@ -1,4 +1,17 @@
-inventory = {'apples': 5, 'potatoes': 3, 'bananas': 2, 'durian': 1, 'peppers': 10}
+import random
 
-for key, value in inventory.items():
-    print(f"* {key} -- {value}")
+sides = int(input("how many sides to your die?  "))
+throws = int(input("How many times should I throw it?  "))
+
+results = {}
+
+for x in range(throws):
+    die = random.randint(1, sides)
+    if die in results.keys():
+        results[die] += 1
+    else: 
+        results[die] = 1
+
+for k, v in results.items():
+    print(k, ": ", v)
+
