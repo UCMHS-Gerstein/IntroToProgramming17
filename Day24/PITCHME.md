@@ -16,6 +16,7 @@ git init
 ```
 +++
 ### Part 2
+Create a file called exercise1.py inside the intro-to-dicts repository.
 
 Choose a word. Use that word as a variable name. Create a dictionary with at least 5 items. The keys should be languages, and the value for each key should be the word's translation into the specified language. Assign the dictionary as the value for the variable you just created.
 
