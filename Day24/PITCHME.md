@@ -14,6 +14,7 @@ mkdir intro-to-dicts
 cd intro-to-dicts
 git init
 ```
++++
 ### Part 2
 
 Choose a word. Use that word as a variable name. Create a dictionary with at least 5 items. The keys should be languages, and the value for each key should be the word's translation into the specified language. Assign the dictionary as the value for the variable you just created.
