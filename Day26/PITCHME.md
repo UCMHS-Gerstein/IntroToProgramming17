@@ -25,14 +25,20 @@ In a Bash console, create a new directory called "Day26" using `mkdir Day26` and
 # Split
 
 * Read through [the reference](https://docs.python.org/3/library/stdtypes.html?#str.split)
-* In a Python 3 console, create a string containing "If you trust in yourself... and believe in your dreams... and follow your star... you'll still get beaten by people who spent their time working hard and learning things and weren't so lazy." and assign it to a variable called s
+* You need to assign a string with multiple words to a variable. I've provided a Terry Pratchett quote as a sample
 
 ```python
 s = "If you trust in yourself... and believe in your dreams... and follow your star... you'll still get beaten by people who spent their time working hard and learning things and weren't so lazy."
 ```
 
 Can you split this into separate words?
-+++
+---
 # String module
 
 We're going to use [the string module](https://docs.python.org/3/library/string.html) to do better text processing
+---
+# Longer quote
+
+Here's a Neil Gaiman quote that will work for handling capitalization and punctuation.
+
+"I hope that in this year to come, you make mistakes. Because if you are making mistakes, then you are making new things, trying new things, learning, living, pushing yourself, changing yourself, changing your world. You're doing things you've never done before, and more importantly, you're doing something." 
