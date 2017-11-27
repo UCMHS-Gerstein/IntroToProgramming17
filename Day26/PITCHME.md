@@ -13,7 +13,7 @@ Intro to Programming - Day 26
 
 In a Bash console, create a new directory called "Day26" using `mkdir Day26` and navigate into it using `cd Day26`
 ---
-# Goal - count repetitions of each word in a text you choose
+#### Goal - count repetitions of each word in a text you choose
 
 1. Learn to split text
 2. Handle capitalization
