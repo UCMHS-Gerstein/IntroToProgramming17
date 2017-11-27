@@ -39,6 +39,20 @@ We're going to use [the string module](https://docs.python.org/3/library/string.
 ---
 # Longer quote
 
-Here's a Neil Gaiman quote that will work for handling capitalization and punctuation.
+Create a file called `textprocessing.py` in your day26 directory. Create a variable called text containing the Neil Gaiman quote below.
 
 "I hope that in this year to come, you make mistakes. Because if you are making mistakes, then you are making new things, trying new things, learning, living, pushing yourself, changing yourself, changing your world. You're doing things you've never done before, and more importantly, you're doing something." 
+---
+## Split the text
+
+Use the .split() function to split the text and assign the list returned to a variable called split_text. Print the variable
++++
+# How could we improve this?
+---
+## Sort the text
+
+Print out a sorted copy of the text
+---
+## Matching text
+
+Let's make the case match on everything. use `text.lowercase()`, which will return an all-lowercase version of `text`, and assign that to the variable `cleaned_text`

@@ -44,3 +44,8 @@ Define a function to both print and return the translation of a specified word i
 ### Part 4
 
 Save and commit your changes
+---
+# Exercise 2
+
+Dictionaries of Dictionaries
+
