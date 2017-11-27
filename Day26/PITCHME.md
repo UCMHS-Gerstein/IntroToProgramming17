@@ -6,7 +6,7 @@ Intro to Programming - Day 26
 ## Goals
 
 * Review dictionaries
-* Review functionaries
+* Review functions
 * Handle strings better
 ---
 # Setup
