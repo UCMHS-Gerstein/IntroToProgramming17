@@ -55,4 +55,25 @@ Print out a sorted copy of the text
 ---
 ## Matching text
 
-Let's make the case match on everything. use `text.lowercase()`, which will return an all-lowercase version of `text`, and assign that to the variable `cleaned_text`
+Let's make the case match on everything. Use `text.lowercase()`, which will return an all-lowercase version of `text`, and assign that to the variable `cleaned_text`
+---
+## in
+
+* We can use the `in` keyword to check if something is contained in something else.
+* `'a' in 'cat'` returns True
+* `'b' in 'cat'` returns False
+* `4 in [1, 3, 5, 7, 9]` returns False
+* We can use this to check if a letter is in a set of forbidden (or permitted) characters
+---
+## Cleaning the string
+
+* Take the original text, make it lowercase, and copy all permitted characters into a new string called cleaned_text
+* You can't append to a string, but you can add to it
+* **for** each letter in the string, if it is not in a set of forbidden characters, add it to the string called cleaned_text
+---
+## Making a dictionary
+
+Now that you have a list of words, we're going to need to create a dictionary
+
+* Create an empty dictionary called words
+* How can we add things effecively?
