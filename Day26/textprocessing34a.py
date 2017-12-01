@@ -12,14 +12,20 @@ def text_cleaner(text_to_clean):
             cleaned_text += letter
     return cleaned_text
 
-# split text and assign it to split_text
-split_text = text_cleaner("""Each January at the Kickoff, a new, challenging game is introduced. These exciting competitions combine
-the practical application of science and technology with the fun, intense energy and excitement of a
-championship-style sporting event. Teams are encouraged to display Gracious Professionalism® and to
-help other teams and cooperate while competing. This is known as Coopertition®.
-""").split()
-# sort the list
-split_text.sort()
+def create_word_list(string_to_split):
+    """Take a string and split it into 
+    individual words"""
+    words = string_to_split.split()
+    words.sort()
+    return words
 
-# print the list
-print(split_text)
+# split text and assign it to split_text
+s = "Fred is a gigantic cat. He is black and white."
+
+# clean the string and store it in cleaned_text
+cleaned_text = text_cleaner(s)
+
+# split into words and store in words
+words = create_word_list(cleaned_text)
+
+print(words)
