@@ -2,12 +2,15 @@ text = "I hope that in this year to come, you make mistakes. Because if you are 
 
 def clean_text(text_to_clean): 
     """convert text_to_clean to lowercase and
-    strip out punctuation. print the result"""
+    strip out punctuation. return the result"""
+    clean = ''
     for n in text_to_clean.lower():
         if n not in ',.':
-            print(n, end='')
+            clean += n
+    return clean
 
-clean_text(text)
+print(clean_text(text))
+print(clean_text('Elie and Virendra talk way too much.'))
 
 # split_text = cleaned_text.split()
 
