@@ -22,10 +22,21 @@ def create_word_list(string_to_split):
 # split text and assign it to split_text
 s = "Fred is a gigantic cat. He is black and white."
 
-# clean the string and store it in cleaned_text
-cleaned_text = text_cleaner(s)
+# # clean the string and store it in cleaned_text
+# cleaned_text = text_cleaner(s)
 
-# split into words and store in words
-words = create_word_list(cleaned_text)
+# # split into words and store in words
+# words = create_word_list(cleaned_text)
+
+words = create_word_list(text_cleaner(s))
 
 print(words)
+
+word_counts = {}
+for word in words:
+    if word in word_counts:
+        word_counts[word] += 1
+    else:
+        word_counts[word] = 1
+
+print(word_counts)
