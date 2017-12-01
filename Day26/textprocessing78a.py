@@ -9,11 +9,14 @@ def clean_text(text_to_clean):
             clean += n
     return clean
 
-print(clean_text(text))
-print(clean_text('Elie and Virendra talk way too much.'))
+def split_words(text_to_split):
+    """take a string and return that string
+    split into words and sorted alphabetically"""
+    words = text_to_split.split()
+    words.sort()
+    return words
 
-# split_text = cleaned_text.split()
+# clean = clean_text(text)
+word_list = split_words(clean_text(text))
 
-# split_text.sort()
-
-# print(split_text)
+print(word_list)
