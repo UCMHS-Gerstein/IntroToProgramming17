@@ -16,7 +16,20 @@ def split_words(text_to_split):
     words.sort()
     return words
 
+def count_words(list_to_count):
+    """take a list of words, and return a
+    dictionary of word counts"""
+    word_dict = {}
+    for word in list_to_count:
+        if word in word_dict:
+            word_dict[word] += 1
+        else:
+            word_dict[word] = 1
+    return word_dict
+
 # clean = clean_text(text)
 word_list = split_words(clean_text(text))
 
-print(word_list)
+word_dict = count_words(word_list)
+
+print(word_dict)
