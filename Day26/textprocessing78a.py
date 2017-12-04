@@ -27,9 +27,14 @@ def count_words(list_to_count):
             word_dict[word] = 1
     return word_dict
 
+def process_text(text_to_process):
+    return count_words(split_words(clean_text(text_to_process)))
+
 # clean = clean_text(text)
-word_list = split_words(clean_text(text))
+# word_list = split_words(clean_text(text))
 
-word_dict = count_words(word_list)
+# word_dict = count_words(word_list)
 
-print(word_dict)
+# print(word_dict)
+
+print(process_text("Hello Virendra and Elie. How are you today? Have you seen any eliephants?"))

@@ -12,12 +12,24 @@ def clean_text(text_to_clean, forbidden):
             clean_string += letter
     return clean_string
 
-words = clean_text(text, 'aeiou').split()
-print(words)
+def split_string(string_to_split):
+    """take a string and return a list of
+    the words in that string, sorted alphabetically"""
+    words = string_to_split.split()
+    words.sort()
+    return words
 
-# cleaned_text = ''
+def word_counter(words_to_count):
+    """take a list of words and return a 
+    dictionary of word quantities"""
+    counted = {}
+    for word in words_to_count:
+        if word in counted:
+            counted[word] += 1
+        else:
+            counted[word] = 1
+    return counted
 
-# split_text = cleaned_text.split()
-# split_text.sort()
-
-# print(split_text)
+word_list = split_string(clean_text(text, '.,'))
+quantities = word_counter(word_list)
+print(quantities)

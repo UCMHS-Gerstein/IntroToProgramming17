@@ -9,14 +9,24 @@ def remove_chars(string_to_clean, to_remove):
             clean_string += letter
     return clean_string
 
-words = remove_chars(text, ',.').split()
-print(words)
-# call the remove_chars function and make sure it works
+def abc_sort(string_to_split):
+    """take a string, split it into words,
+    and return an alphabetically sorted list"""
+    words = string_to_split.split()
+    words.sort()
+    return words
 
-# cleaned_text = text.lower()
+def count_words(words_to_count):
+    """take a list of words and return a dictionary
+    with word counts for each word"""
+    word_counts = {}
+    for word in words_to_count:
+        if word in word_counts:
+            word_counts[word] += 1
+        else:
+            word_counts[word] = 1
+    return word_counts
 
-# split_text = cleaned_text.split()
-
-# split_text.sort()
-
-# print(split_text)
+words = abc_sort(remove_chars(text, ',.'))
+counted = count_words(words)
+print(counted)
