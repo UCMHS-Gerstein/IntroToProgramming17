@@ -106,6 +106,8 @@ print(mayim.name)
 print(mayim.species)
 ```
 +++
+What will this do?
+
 ```python
 pets = []
 
