@@ -42,6 +42,7 @@ Each of those dictionaries described a specific pet. How about a generic pet?
 ```python
 generic_pet = {'name': name_string, 'age': integer_value, 'species': species_string, 'description': description_string}
 ```
+---
 ## Classes
 
 * A class is a template
