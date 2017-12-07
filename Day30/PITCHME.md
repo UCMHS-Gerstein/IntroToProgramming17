@@ -70,3 +70,50 @@ print(new_object.response)
 @[1-6]
 @[8]
 @[9]
+---
+## Pet class
+
+```python
+class Pet(object):
+    """Pet object defines a pet"""
+    
+    def __init__(self, name, species):
+        """name is pet's name, species is type of pet"""
+        
+        # Assign the parameters given in the function to the variables
+        # belonging to the new Pet object being created
+        self.name = name
+        self.species = species
+
+fred = Pet("Fred", "cat")
+momo = Pet("Maurice", "cat")
+mayim = Pet("Mayim", "dog")
+```
+@[1]
+@[2]
+@[4-5]
+@[4-10]
+@[12-14]
++++
+```python
+print(fred.name)
+print(fred.species)
+print('---')
+print(momo.name)
+print(momo.species)
+print('---')
+print(mayim.name)
+print(mayim.species)
+```
++++
+```python
+pets = []
+
+while True:
+    pets.append(Pet(input('Name?  '), input('Species?  ')))
+    if input('Continue? Y/N  ').lower() == 'n':
+        break
+
+for pet in pets:
+    print(f"{pet.name} is a {pet.species}")
+```
