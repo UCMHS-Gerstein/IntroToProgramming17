@@ -67,4 +67,6 @@ class Simple(object):
 new_object = Simple()
 print(new_object.response)
 ```
-@[1-6],[8],[9]
+@[1-6]
+@[8]
+@[9]
