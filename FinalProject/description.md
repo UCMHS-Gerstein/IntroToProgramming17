@@ -12,6 +12,7 @@ Excellent work will include:
 * Version control in Git
 * Clear documentation of how the code works
 * A presentation of the game and of the process of creating it
+* Repository name: FinalProject17
 
 ## Expectations
 
