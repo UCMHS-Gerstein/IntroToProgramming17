@@ -2,7 +2,7 @@
 
 ## Goal
 
-Plan, code, document, and prsent a text-based game in Python.
+Plan, code, document, and present a text-based game in Python.
 
 ## Criteria
 
